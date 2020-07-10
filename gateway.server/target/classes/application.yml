@@ -1,0 +1,32 @@
+
+
+server:
+  port: 80
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server1:8888/eureka,http://eureka-server2:9999/eureka
+
+spring:
+  application:
+    name: gateway.server
+  cloud:
+    gateway:
+      routes:   # 路由配置
+        - id: gateway.provider
+          # uri: http://localhost:8080/   # 静态路由
+          uri: lb://gateway.provider
+          predicates:
+            - Path=/product/**
+          filters:
+            - AddRequestParameter=username,zhangsan
+        - id: gateway.consumer
+          # uri: http://localhost:8085/   # 静态路由
+          uri: lb://gateway.consumer
+          predicates:
+            - Path=/order/**
+      discovery:    # 给请求路径前添加服务名称作为uri的唯一标识
+        locator:
+          enabled: true
+          lower-case-service-id: true

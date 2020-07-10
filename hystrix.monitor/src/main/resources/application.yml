@@ -1,0 +1,16 @@
+server:
+  port: 8769
+spring:
+  application:
+    name: hystrix.monitor
+turbine:
+  combine-host-port: true
+  app-config: hystrix.consumer,hystrix.provider
+  cluster-name-expression: "'default'"
+  aggregator:
+    cluster-config: default
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server1:8888/eureka,http://eureka-server2:9999/eureka
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config.consumer/config.consumer.iml" filepath="$PROJECT_DIR$/config.consumer/config.consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config.provider/config.provider.iml" filepath="$PROJECT_DIR$/config.provider/config.provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config.server/config.server.iml" filepath="$PROJECT_DIR$/config.server/config.server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul.consumer/consul.consumer.iml" filepath="$PROJECT_DIR$/consul.consumer/consul.consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul.provider/consul.provider.iml" filepath="$PROJECT_DIR$/consul.provider/consul.provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka.consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka.consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka.provider/eureka.provider.iml" filepath="$PROJECT_DIR$/eureka.provider/eureka.provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka.server/eureka.server.iml" filepath="$PROJECT_DIR$/eureka.server/eureka.server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka.server2/eureka.server2.iml" filepath="$PROJECT_DIR$/eureka.server2/eureka.server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign.consumer/feign.consumer.iml" filepath="$PROJECT_DIR$/feign.consumer/feign.consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign.provider/feign.provider.iml" filepath="$PROJECT_DIR$/feign.provider/feign.provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway.consumer/gateway.consumer.iml" filepath="$PROJECT_DIR$/gateway.consumer/gateway.consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway.provider/gateway.provider.iml" filepath="$PROJECT_DIR$/gateway.provider/gateway.provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway.server/gateway.server.iml" filepath="$PROJECT_DIR$/gateway.server/gateway.server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix.consumer/hystrix.consumer.iml" filepath="$PROJECT_DIR$/hystrix.consumer/hystrix.consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix.monitor/hystrix.monitor.iml" filepath="$PROJECT_DIR$/hystrix.monitor/hystrix.monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix.provider/hystrix.provider.iml" filepath="$PROJECT_DIR$/hystrix.provider/hystrix.provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos.consumer/nacos.consumer.iml" filepath="$PROJECT_DIR$/nacos.consumer/nacos.consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos.provider/nacos.provider.iml" filepath="$PROJECT_DIR$/nacos.provider/nacos.provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream.consumer/stream.consumer.iml" filepath="$PROJECT_DIR$/stream.consumer/stream.consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream.producer/stream.producer.iml" filepath="$PROJECT_DIR$/stream.producer/stream.producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin.consumer/zipkin.consumer.iml" filepath="$PROJECT_DIR$/zipkin.consumer/zipkin.consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin.provider/zipkin.provider.iml" filepath="$PROJECT_DIR$/zipkin.provider/zipkin.provider.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config.consumer" />
+        <module name="config.provider" />
+        <module name="config.server" />
+        <module name="consul-provider" />
+        <module name="consul.consumer" />
+        <module name="consul.provider" />
+        <module name="eureka-consumer" />
+        <module name="eureka-provider" />
+        <module name="eureka-server" />
+        <module name="eureka-server2" />
+        <module name="eureka.consumer" />
+        <module name="eureka.provider" />
+        <module name="eureka.server" />
+        <module name="eureka.server2" />
+        <module name="feign.consumer" />
+        <module name="feign.provider" />
+        <module name="gateway.consumer" />
+        <module name="gateway.consumer (1)" />
+        <module name="gateway.provider" />
+        <module name="gateway.server" />
+        <module name="hystrix.consumer" />
+        <module name="hystrix.monitor" />
+        <module name="hystrix.provider" />
+        <module name="nacos-consumer" />
+        <module name="nacos-provider" />
+        <module name="nacos.consumer" />
+        <module name="nacos.provider" />
+        <module name="service-consumer" />
+        <module name="stream.consumer" />
+        <module name="stream.producer" />
+        <module name="zipkin.consumer" />
+        <module name="zipkin.provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config.consumer" target="1.8" />
+      <module name="config.provider" target="1.8" />
+      <module name="config.server" target="1.8" />
+      <module name="consul-consumer" target="1.8" />
+      <module name="consul-provider" target="1.8" />
+      <module name="consul.consumer" target="1.8" />
+      <module name="consul.provider" target="1.8" />
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-provider" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server2" target="1.8" />
+      <module name="eureka.consumer" target="1.8" />
+      <module name="eureka.provider" target="1.8" />
+      <module name="eureka.server" target="1.8" />
+      <module name="eureka.server2" target="1.8" />
+      <module name="feign.consumer" target="1.8" />
+      <module name="feign.provider" target="1.8" />
+      <module name="gateway.consumer" target="1.8" />
+      <module name="gateway.consumer (1)" target="1.8" />
+      <module name="gateway.provider" target="1.8" />
+      <module name="gateway.server" target="1.8" />
+      <module name="hystrix.consumer" target="1.8" />
+      <module name="hystrix.monitor" target="1.8" />
+      <module name="hystrix.provider" target="1.8" />
+      <module name="nacos-consumer" target="1.8" />
+      <module name="nacos-provider" target="1.8" />
+      <module name="nacos.consumer" target="1.8" />
+      <module name="nacos.provider" target="1.8" />
+      <module name="service-consumer" target="1.8" />
+      <module name="service-provider" target="1.8" />
+      <module name="springcloud" target="1.8" />
+      <module name="springcloud-parent" target="1.8" />
+      <module name="stream.consumer" target="1.8" />
+      <module name="stream.producer" target="1.8" />
+      <module name="zipkin.consumer" target="1.8" />
+      <module name="zipkin.provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

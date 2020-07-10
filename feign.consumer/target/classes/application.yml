@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: feign.consumer
+eureka:
+  client:
+    service-url:
+     defaultZone: http://eureka-server1:8888/eureka,http://eureka-server2:9999/eureka
+
+ribbon:
+  ConnectTimeout: 1000
+  ReadTimeOut: 3000
+
+logging:
+  level:
+    com.itheima: debug
